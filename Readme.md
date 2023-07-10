@@ -1,7 +1,7 @@
 # Личный проект «Шесть городов»
 
 * Студент: [Илиана Манерова](https://up.htmlacademy.ru/react/13/user/1990863).
-* Наставник: `Неизвестно`.
+* Наставник: [Антон Ткачук](https://up.htmlacademy.ru/profession/react/11/react/13/user/2397393).
 
 ---
 
