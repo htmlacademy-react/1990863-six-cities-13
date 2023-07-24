@@ -2,10 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../../components/logo/logo';
 import './not-found-page.css';
+import { Helmet } from 'react-helmet-async';
 
 function NotFoundPage(): React.JSX.Element {
   return (
     <div className='notFound'>
+      <Helmet>
+        <title>6 Cities. 404</title>
+      </Helmet>
       <header className="header">
         <div className="container">
           <div className="header__wrapper">

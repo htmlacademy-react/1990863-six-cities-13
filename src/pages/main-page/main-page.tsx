@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet-async';
 import Card from '../../components/card';
 import Logo from '../../components/logo/logo';
 
@@ -7,6 +8,9 @@ type OffersProps = {
 function MainPage({offersCount}: OffersProps): React.JSX.Element {
   return (
     <div className="page page--gray page--main">
+      <Helmet>
+        <title>6 Cities</title>
+      </Helmet>
       <header className="header">
         <div className="container">
           <div className="header__wrapper">
