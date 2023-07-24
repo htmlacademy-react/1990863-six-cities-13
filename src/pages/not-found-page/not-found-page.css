@@ -1,0 +1,59 @@
+.notFound {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.notFoundLine {
+  border-top: 1px solid rgba(222,222,222,.5);
+}
+
+.notFoundTitle {
+  margin-top: 0;
+  margin-bottom: 49px;
+  font-size: 32px;
+  line-height: 1.1429;
+  font-weight: 700;
+  font-style: oblique;
+  text-align: center;
+}
+
+.notFoundText{
+  margin: 28px 0;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #000;
+}
+.notFoundTitleLink {
+  outline: none;
+  padding: 2px 1px 0;
+  text-decoration: underline dotted #4481c3;
+}
+
+.notFoundTitleLink:link {
+  color: #85b5f0;
+}
+
+.notFoundTitleLink:visited {
+  color: #164a7a;
+}
+
+.notFoundTitleLink:focus {
+  background: #7ba0c7;
+}
+
+.notFoundTitleLink:hover {
+  text-decoration: #4481c3 underline;
+  background: #aabefe;
+}
+
+.notFoundTitleLink:active {
+  background: #011e53;
+  color: #aad5fe;
+}
